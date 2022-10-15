@@ -6,6 +6,5 @@ export default function (context) {
       uri: "https://my-todos-gateway-gql.herokuapp.com/graphql",
     },
     cache: new InMemoryCache(),
-    wsEndpoint: "wss://my-todos-gateway-gql.herokuapp.com/graphql",
   };
 }
