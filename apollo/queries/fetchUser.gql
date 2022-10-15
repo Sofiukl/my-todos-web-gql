@@ -1,0 +1,6 @@
+query GatewayToUserServiceQuery($userId: String) {
+  user(userId: $userId) {
+    email
+    role
+  }
+}

@@ -1,0 +1,13 @@
+query GatewayServiceQuery($userId: ID!) {
+  todos(userId: $userId) {
+    id
+    title
+    userId
+    user {
+      email
+      todos {
+        title
+      }
+    }
+  }
+}
